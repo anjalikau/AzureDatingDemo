@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/fce563db-1823-44b6-964b-bb5666465bc3/resourceGroups/appsvc_windows_southeastasia/providers/Microsoft.Web/sites/dat-2026",
+    "appService.deploySubpath": "API\\bin\\publish"
+}
