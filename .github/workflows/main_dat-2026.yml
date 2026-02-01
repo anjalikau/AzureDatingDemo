@@ -18,16 +18,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      -name:Set up node.jobs
+      - name: Set up node.jobs
         uses: actions/setup-node@v4
         with:
           node-version: '22'
 
-        -name: install Angular CLI
-        run: npm install -g @angular/cli@20
+      - name: Install Angular cli
+          run: npm install -g @angular/cli@20
 
-        -name: install deps and build angular app
-        run: |
+      - name: Install deps and build angular app
+          run: |
           cd ClientApp
           npm install
           ng build 
